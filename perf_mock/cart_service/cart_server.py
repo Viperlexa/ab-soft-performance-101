@@ -7,13 +7,13 @@ from time import sleep
 import os
 
 # Extract server config from env vars
-PRODUCT_SERVER_HOST = os.getenv('PRODUCT_SERVER_HOST', '0.0.0.0')
+PRODUCT_SERVER_HOST = os.getenv('PRODUCT_SERVER_HOST', 'localhost')
 PRODUCT_SERVER_PORT = os.getenv('PRODUCT_SERVER_PORT', '7777')
 
-AUTH_SERVER_HOST = os.getenv('AUTH_SERVER_HOST', '0.0.0.0')
+AUTH_SERVER_HOST = os.getenv('AUTH_SERVER_HOST', 'localhost')
 AUTH_SERVER_PORT = os.getenv('AUTH_SERVER_PORT', '7778')
 
-CART_SERVER_HOST = os.getenv('CART_SERVER_HOST', '0.0.0.0')
+CART_SERVER_HOST = os.getenv('CART_SERVER_HOST', 'localhost')
 CART_SERVER_PORT = os.getenv('CART_SERVER_PORT', '7779')
 
 # Pseudo throttling params setup

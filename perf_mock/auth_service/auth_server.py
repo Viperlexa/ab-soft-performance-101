@@ -7,7 +7,7 @@ from uuid import uuid4
 import os
 
 # Extract server config from env vars
-AUTH_SERVER_HOST = os.getenv('AUTH_SERVER_HOST', '0.0.0.0')
+AUTH_SERVER_HOST = os.getenv('AUTH_SERVER_HOST', 'localhost')
 AUTH_SERVER_PORT = os.getenv('AUTH_SERVER_PORT', '7778')
 
 # Pseudo throttling params setup
